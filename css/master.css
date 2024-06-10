@@ -1,0 +1,185 @@
+/* GLOBAL RESET */
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* FONT SETUP */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/* BODY background */
+body {
+    background-color: #9AE3B7;
+}
+
+/* ZONE 1 */
+
+.header.Container {
+    background-color: #9AE3B7;
+    min-height: 40px;
+    padding: 10px;
+}
+
+.barra.Box {
+    /* centratura in mezzo */
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 10px;
+    background-color: #E6CDA3;
+    display: flex;
+    /* il problemapotrebb essere questo sistemare spaziatura*/
+    justify-content: space-between;
+    border: 1px dashed black;
+}
+
+.header.item1 {
+    border-right: 1px dashed black;
+    padding-right: 20%;
+    
+}
+
+
+.header.item3 {
+    border-left: 1px dashed black;
+    padding-left: 20%;
+}
+
+/* 1. sottoheader */
+.box.lavoro.uno{
+    background-color: #F2EAC4;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container.Viola {
+    background-color: #F0A8A8;
+    min-height: 300px;
+    width: 600px;
+    border: 1px dashed black;
+}
+
+/* 2. blu rosa*/
+.box.lavoro.due {
+    background-color: #EAB0E3;
+    min-height: 400px;
+    display: flex;
+}
+.flexBox2 {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.azzurro {
+    background-color: #95DBDA;
+    min-height: 300px;
+    width: 30%;
+    border: 1px dashed black;
+}
+.container.rosa {
+    background-color: #9BAADD;
+    min-height: 300px;
+    width: 70%;
+    border: 1px dashed black;
+}
+
+
+
+/* 3. rosa blu*/
+.box.lavoro.tre {
+    background-color: #9AE3B7;
+    min-height: 400px;
+    display: flex;
+}
+    
+
+
+.flexBox3 {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.azzurro3 {
+    background-color: #E6CDA3;
+    min-height: 300px;
+    width: 70%;
+    border: 1px dashed black;
+}
+.container.rosa3 {
+    background-color: #F2EAC4;
+    min-height: 300px;
+    width: 30%;
+    border: 1px dashed black;
+}
+
+/* 4. */
+
+/* 5. */
+.box.lavoro.cinque {
+    background-color: #F2EAC4;
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container.Viola.cinque {
+    background-color: #F0A8A8;
+    min-height: 450px;
+    width: 1000px;
+    border: 1px dashed black;
+}
+
+/* 6. */
+.box.lavoro.sei {
+    background-color: #9AE3B7;
+    min-height: 500px;
+    display: flex;
+}
+ 
+.flexBox6 {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container6-1 {
+    min-height: 300px;
+    background-color: #E6CDA3;
+    flex-grow: 3;
+    overflow-wrap: break-word;
+}
+.container6-2 {
+    min-height: 300px;
+    background-color: #F2EAC4;
+    flex-grow: 1;
+}
+.container6-3 {
+    min-height: 300px;
+    background-color: #F0A8A8;
+    flex-grow: 1;
+}
+.container6-4 {
+    min-height: 300px;
+    background-color: #EAB0E3;
+    flex-grow: 1;
+}
+.container6-5 {
+    min-height: 300px;
+    background-color: #95DBDA;
+
+    flex-grow: 1;
+}
